@@ -14,15 +14,15 @@ namespace CMS.Application
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Entered Main()");
             Initialization();
 
         }
 
         private static void Initialization()
         {
-            students.Add(new Student(100001, "James", "Smith", 1));
+            students.Add(new Student(100001, "John", "Smith", 1));
             students.Add(new Student(100002, "Robert", "Smith", 2));
-            students.Add(new Student(100003, "Jane", "Smith", 3));
         }
 
         private static void FinalizeMethod()
