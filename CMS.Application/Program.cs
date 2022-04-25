@@ -15,6 +15,7 @@ namespace CMS.Application
         static void Main(string[] args)
         {
             Initialization();
+            string strMessage = "Hello";
 
         }
 
