@@ -34,7 +34,16 @@ namespace CMS.Application
         private static void Print()
         {
             // Print the student data to the consol
-            // ----
+            foreach (var student in students)
+            {
+                Console.WriteLine(student.FirstName + student.LastName);
+            }
+
+            foreach(Student student in students)
+            {
+                Console.WriteLine(student.FirstName + student.LastName);
+            }
+
         }
 
     }
